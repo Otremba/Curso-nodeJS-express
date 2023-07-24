@@ -8,7 +8,7 @@ const app = express();
 
 const Posts = require('./Posts.js');
 
-mongoose.connect('mongodb+srv://rickrevolution79:91589701Aa@cluster0.d2l3eca.mongodb.net/portal?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true}).then(function(){
+mongoose.connect('mongodb+srv://rickrevolution79:<PASS>@cluster0.d2l3eca.mongodb.net/portal?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true}).then(function(){
     console.log('Conectado com sucesso');
 }).catch(function(err){
     console.log(err.message);
